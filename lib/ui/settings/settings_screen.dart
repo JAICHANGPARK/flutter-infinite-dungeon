@@ -65,7 +65,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
         children: [
           Image.asset(
             'assets/title_poster.png',
-            fit: BoxFit.cover,
+            fit: BoxFit.fitHeight,
             height: double.infinity,
             width: double.infinity,
             color: Colors.black26,
